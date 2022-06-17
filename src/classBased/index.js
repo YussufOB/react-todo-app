@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router } from 'react-router-dom';
-import TodoContainer from './functionBased/components/TodoContainer';
-import './functionBased/App.css';
+import TodoContainer from './components/TodoContainer';
+import './App.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.querySelector('main'));
 root.render(
   <React.StrictMode>
-    <Router>
-      <TodoContainer />
-    </Router>
+    <TodoContainer />
   </React.StrictMode>,
 );
 
