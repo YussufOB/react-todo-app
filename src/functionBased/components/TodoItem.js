@@ -1,3 +1,5 @@
+/* eslint-disable  */
+
 import React, { useState, useEffect } from 'react';
 import { BsTrashFill } from 'react-icons/bs';
 import styles from './TodoItem.module.css';
